@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f1ff;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+/*this is top, where we have text and button */
+.top {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  display: relative;
+}
+.top-text {
+  position: absolute;
+  font-size: 26px;
+  color: #13183f;
+  font-weight: 800;
+  margin-top: 38.75px;
+  margin-left: 166px;
+  top: 0;
+  left: 0;
+  transform: translate(30%, 0);
+}
+.button-three {
+  position: absolute;
+  width: 167px;
+  height: 56px;
+  background: #13183f;
+  border-radius: 28px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 24px;
+  right: 0;
+  top: 0;
+  transform: translate(-190%, 0);
+  z-index: 100;
+}
+.button-three:hover {
+  background: #666ca3;
+  cursor: pointer;
+}
+/* this is div called main work, cuz it is most difficult part of this challenge
+there are main texts, photo and button located*/
+.main-work {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 300px;
+  margin-top: 186px;
+}
+.main-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(10%, -30%);
+}
+
+.main-text {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /*margin-right: 592px;*/
+  color: #13183f;
+  top: 0;
+  left: 0;
+  transform: translate(35%, 50%);
+}
+
+/*this is main text and button*/
+h1 {
+  font-size: 56px;
+  width: 457px;
+  height: 143px;
+  font-weight: 800;
+  line-height: 70.5px;
+}
+.button-one {
+  width: 167px;
+  height: 56px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 28px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+}
+.button-one:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  cursor: pointer;
+}
+/*it is container where i put 6 box*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 80px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 794px;
+}
+/*it is custom box with white background */
+.box {
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 350px;
+  height: 322px;
+  text-align: left;
+  line-height: 28px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #ffffff;
+  position: relative;
+}
+/*it is box image positions*/
+.box-image {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  transform: translate(50%, -50%);
+}
+/* it is first main box with purple background */
+.main-box {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 64px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 15px;
+  width: 350px;
+  height: 322px;
+  text-align: left;
+}
+
+/*this h2 and h3 are child texts of boxes and main-box*/
+h2 {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 40px;
+  font-weight: 800;
+}
+h3 {
+  padding-top: 64px;
+  font-size: 24px;
+  color: #13183f;
+  font-weight: 800;
+}
+/* it is box paragraphes.*/
+.box-p {
+  font-size: 18px;
+  padding-top: 24px;
+  color: #83869a;
+  font-weight: 500;
+}
+/* it is Get started button*/
+.button {
+  margin-top: 52px;
+  color: #f74780;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.button:hover {
+  cursor: pointer;
+  color: #ffa7c3;
+}
+/*this is rectangle and it childs*/
+.rectangle {
+  margin-top: 140px;
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background-color: #13183f;
+  justify-content: space-around;
+}
+.rec-text {
+  font-size: 36px;
+  color: white;
+  margin: 32px;
+  /*margin-right: 250px;*/
+  margin-top: 46px;
+  margin-bottom: 46px;
+  line-height: 28px;
+}
+.button-two {
+  width: 167px;
+  height: 56px;
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  border-radius: 28px;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+}
+/* it is button box text*/
+.button-text {
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  padding-top: 16px;
+}
+.button-two:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  cursor: pointer;
+}
